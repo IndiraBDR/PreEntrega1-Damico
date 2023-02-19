@@ -74,7 +74,7 @@ if (edad >= 18) {
 
        
 
-        let resultado = `Su pago final es de ${calculadoraDeDescuento (precioTotal,descuentoA,descuentoB,descuentoAsignado)} pesos`;
+        let resultado = `Su pago final $ ${calculadoraDeDescuento (precioTotal,descuentoA,descuentoB,descuentoAsignado)}`;
 
         alert(resultado);
 
